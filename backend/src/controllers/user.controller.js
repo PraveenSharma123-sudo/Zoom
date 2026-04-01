@@ -1,6 +1,6 @@
 import httpStatus from "http-status";
 import { User } from "../models/user.model.js";
-import bcrypt, { hash } from "bcrypt.js"
+import bcrypt, { hash } from "bcryptjs"
 // const bcrypt = require("bcrypt");
 
 import crypto from "crypto"
